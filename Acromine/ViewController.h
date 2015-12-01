@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MBProgressHUDDelegate>
 
+@property (nonatomic, copy) NSArray * searchResults;
+@property (nonatomic, weak) IBOutlet UITableView *resultsTableView;
+@property (nonatomic, weak) IBOutlet UITextField *searchTextField;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem *changeType;
+@property (nonatomic, assign) BOOL isLongForm;
+
+- (void)myTask;
+
+- (IBAction)changeMode:(id)sender;
+- (IBAction)doSearch:(id)sender;
 
 @end
 

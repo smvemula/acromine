@@ -7,7 +7,8 @@
 //
 
 #import "AFURLSessionManager.h"
+#import "AFHTTPSessionManager.h"
 
-@interface MySession : AFURLSessionManager
-
+@interface MySession : AFHTTPSessionManager
++ (instancetype)sharedClient; //Singleton Method for MySession
 @end

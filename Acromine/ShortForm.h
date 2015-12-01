@@ -10,4 +10,10 @@
 
 @interface ShortForm : NSObject
 
+@property (nonatomic, strong) NSString *sf; //Short Form
+
+- (instancetype)initWithAttributes:(NSDictionary *)attributes;//Initializer for ShortForm
+
++ (NSURLSessionDataTask *)getAcronymForLongForm:(NSString*)longForm withBlock:(void (^)(NSArray *posts, NSError *error))block;//GET Task to get shortForms match 'longForm'
+
 @end

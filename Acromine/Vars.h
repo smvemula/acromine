@@ -10,4 +10,8 @@
 
 @interface Vars : NSObject
 
+@property (nonatomic, strong) NSString *lf;
+@property (nonatomic, assign) NSUInteger freq;
+@property (nonatomic, assign) NSUInteger since;
+
 @end
