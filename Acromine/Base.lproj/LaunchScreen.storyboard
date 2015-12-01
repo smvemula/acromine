@@ -18,19 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acromine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1G5-x4-w4T">
-                                <rect key="frame" x="200" y="70" width="200" height="50"/>
+                                <rect key="frame" x="150" y="70" width="300" height="80"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Kq0-Ga-86D"/>
-                                    <constraint firstAttribute="width" constant="200" id="XMt-KK-Cjh"/>
+                                    <constraint firstAttribute="height" constant="80" id="Kq0-Ga-86D"/>
+                                    <constraint firstAttribute="width" constant="300" id="XMt-KK-Cjh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="59"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="1G5-x4-w4T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="CZH-7L-sZF"/>
                             <constraint firstItem="1G5-x4-w4T" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="50" id="L1Z-wy-R8F"/>

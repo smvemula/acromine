@@ -46,14 +46,16 @@
                                     <constraint firstAttribute="width" constant="60" id="2p3-U0-Ugf"/>
                                     <constraint firstAttribute="height" constant="30" id="JZo-Yr-0PV"/>
                                 </constraints>
-                                <state key="normal" title="Search"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="doSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="31H-tC-9kj"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="vUI-Hs-8DL" firstAttribute="top" secondItem="C4t-5g-O2w" secondAttribute="bottom" constant="15" id="3RU-aF-8IP"/>
                             <constraint firstItem="C4t-5g-O2w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3u2-b0-shM"/>
@@ -92,6 +94,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
+                        <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
